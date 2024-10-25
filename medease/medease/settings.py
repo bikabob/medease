@@ -79,15 +79,15 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': '',
+        'NAME': 'medease_db',
 
-        'USER': '<db_username>',
+        'USER': 'postgres',
 
-        'PASSWORD': '<password>',
+        'PASSWORD': 'helloworld',
 
-        'HOST': '<db_hostname_or_ip>',
+        'HOST': '',
 
-        'PORT': '<db_port>',
+        'PORT': '',
 
     }
 
